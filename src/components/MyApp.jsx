@@ -14,4 +14,14 @@ export  default function MyApp(){
     return 'Hola ' + nombre;
   }
 
+  const saludo = function(nombre){
+    return nombre;
+  }
+
+  const saludo2 = (nombre) => {
+    return nombre;
+  }
+
+    const saludo3 = (nombre) => nombre;
+
 
